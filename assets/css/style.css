@@ -1,5 +1,5 @@
 body {
-    background-image: url(scratch.png);  
+    background-image: url("../images/scratch.png");  
     background-color: rgb(226, 209, 209);
 }
 
@@ -9,10 +9,11 @@ header {
 }
 
 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: bold;
     color: #4aaaa5;
-    margin: 10px;
+    margin: 10px 10px 20px 10px;
 }
 
 p {
@@ -21,9 +22,11 @@ p {
     line-height: 165%;
     margin: 8px;
 }
-hr {
-    color: #4aaaa5;
-    margin: 13px;
+.connect {
+    height: 4px;
+    border: 2;
+    border-style: solid;
+    border-color: #777777;
 }
 
 a:link, a:visited {
@@ -55,7 +58,7 @@ a:hover {
     color: #777777;
     position: fixed;
     top: 27px;
-    right: 100px;
+    right: 110px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -66,8 +69,13 @@ a:hover {
     color: #777777;
     position: fixed;
     top: 27px;
-    right: 200px;
+    right: 175px;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 15px 0px 15px;
+    border-left: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #777777;
 }
 
 .link3 {
@@ -75,8 +83,9 @@ a:hover {
     color: #777777;
     position: fixed;
     top: 27px;
-    right: 300px;
+    right: 280px;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .about {
@@ -88,11 +97,17 @@ a:hover {
     left: 52px;
     width: 540px;
     margin: 30px;
-    padding: 30px 30px 20px 30px;
+    padding: 21px 30px 20px 30px;
     border: 2px;
     border-style: solid;
     border-color: #dddddd;
     overflow: scroll;
+}
+
+.aboutd {
+    border: 2px;
+    border-style: solid;
+    border-color: #777777;
 }
 
 .pic {
@@ -113,8 +128,8 @@ img {
     background-color: #ffffff;
     position: absolute;
     right: 59px;
-    padding: 30px;
-    margin: 30px;
+    padding: 21px 20px 20px 15px;
+    margin: 30px 30px 30px 30px;
     border: 2px;
     border-style: solid;
     border-color: #dddddd;
@@ -122,12 +137,12 @@ img {
 
 .icon {
     float: right;
-    margin: 30px 10px 5px 5px;
+    margin: 15px 7px 15px 7px;
 }
 .footer {
     height: 55px;
     text-align: center;
-    font-size: 8px;
+    font-size: 10px;
     color: #ffffff;
     background-color: #666666;
     width: 100%;
