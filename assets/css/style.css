@@ -94,39 +94,36 @@ a:hover {
     color: #777777;
     background-color: #ffffff;
     Position: absolute;
-    left: 52px;
+    left: 51px;
     width: 540px;
     margin: 30px;
     padding: 21px 30px 20px 30px;
     border: 2px;
     border-style: solid;
     border-color: #dddddd;
-    overflow: scroll;
-}
-
-.aboutd {
-    border: 2px;
-    border-style: solid;
-    border-color: #777777;
 }
 
 .pic {
     float: left;
     margin: 5px 15px 5px 10px;
     border: none;
-    border-radius: 8px;
 }
 
 img {
     border-radius: 8px;
+    float: left;
 }
 
+.thumb {
+    float: left;
+    margin: 15px;
+}
 .connect-box {
     text-align: center;
     font-weight: bold;
     color: #777777;
     background-color: #ffffff;
-    position: absolute;
+    position: fixed;
     right: 59px;
     padding: 21px 20px 20px 15px;
     margin: 30px 30px 30px 30px;
@@ -135,6 +132,43 @@ img {
     border-color: #dddddd;
 }
 
+.contact-form {
+    text-align: wrap;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    Position: absolute;
+    left: 51px;
+    width: 540px;
+    margin: 30px;
+    padding: 21px 30px 20px 30px;
+    border: 2px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.gallery {
+    color: #777777;
+    background-color: #ffffff;
+    Position: absolute;
+    left: 51px;
+    width: 540px;
+    margin: 30px;
+    padding: 21px 30px 20px 30px;
+    border: 2px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+#submit-button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+.row {
+    margin: 4px;
+}
 .icon {
     float: right;
     margin: 15px 7px 15px 7px;
@@ -147,7 +181,7 @@ img {
     background-color: #666666;
     width: 100%;
     height: 25px;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     padding: 18px; 
     border-top: 10px;
