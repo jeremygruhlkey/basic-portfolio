@@ -86,7 +86,7 @@ a:hover {
     right: 280px;
     font-family: Arial, Helvetica, sans-serif;
     
-}
+} 
 
 .about {
     text-align: wrap;
@@ -97,8 +97,8 @@ a:hover {
     left: 51px;
     width: 540px;
     margin: 30px;
-    padding: 21px 30px 20px 30px;
-    border: 2px;
+    padding: 21px 30px 3px 30px;
+    border: 1px;
     border-style: solid;
     border-color: #dddddd;
 }
@@ -144,7 +144,7 @@ a:hover {
     right: 59px;
     padding: 21px 20px 20px 15px;
     margin: 30px 30px 30px 30px;
-    border: 2px;
+    border: 1px;
     border-style: solid;
     border-color: #dddddd;
 }
@@ -160,7 +160,7 @@ a:hover {
     width: 540px;
     margin: 30px;
     padding: 21px 30px 20px 30px;
-    border: 2px;
+    border: 1px;
     border-style: solid;
     border-color: #dddddd;
 }
@@ -173,7 +173,7 @@ a:hover {
     width: 540px;
     margin: 30px;
     padding: 21px 30px 20px 30px;
-    border: 2px;
+    border: 1px;
     border-style: solid;
     border-color: #dddddd;
 }
