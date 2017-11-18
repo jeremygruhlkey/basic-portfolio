@@ -3,9 +3,11 @@ body {
     background-color: rgb(226, 209, 209);
 }
 
-header {
+.header {
     background-color: #ffffff;
     height: 70px;
+    width: 1300px;
+    position: relative;
 }
 
 h2 {
@@ -22,13 +24,11 @@ p {
     line-height: 165%;
     margin: 8px;
 }
-.connect {
-    height: 4px;
-    border: 2;
-    border-style: solid;
-    border-color: #777777;
+    
+p:first-child::selection {
+    color: red;
+    background: yellow;
 }
-
 a:link, a:visited {
     text-decoration: none;
     color: #777777;
@@ -47,7 +47,7 @@ a:hover {
     font-family: "Georgia", Times, 'Times New Roman', serif;
     font-weight: bold;
     width: 22%;
-    position: fixed;
+    position: absolute;
     top: 0px;
     margin: 0px 0px 0px 80px;
     padding: 23px;
@@ -56,9 +56,9 @@ a:hover {
 .link1 {
     font-size: 15px;
     color: #777777;
-    position: fixed;
+    position: absolute;
     top: 27px;
-    right: 110px;
+    right: 360px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -67,9 +67,9 @@ a:hover {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     color: #777777;
-    position: fixed;
+    position: absolute;
     top: 27px;
-    right: 175px;
+    right: 425px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px 15px 0px 15px;
     border-left: 1px;
@@ -81,12 +81,20 @@ a:hover {
 .link3 {
     font-size: 15px;
     color: #777777;
-    position: fixed;
+    position: absolute;
     top: 27px;
-    right: 280px;
+    right: 525px;
     font-family: Arial, Helvetica, sans-serif;
     
 } 
+
+.content {
+    position: relative;
+    left: 1px;
+    width: 1055px;
+    background-color: yellow;
+}
+
 
 .about {
     text-align: wrap;
@@ -94,7 +102,7 @@ a:hover {
     color: #777777;
     background-color: #ffffff;
     Position: absolute;
-    left: 51px;
+    left: 50px;
     width: 540px;
     margin: 30px;
     padding: 21px 30px 3px 30px;
@@ -103,20 +111,18 @@ a:hover {
     border-color: #dddddd;
 }
 
+.about-me {
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
 .pic {
     float: left;
-    margin: 5px 15px 5px 10px;
+    margin: 15px 15px 5px 10px;
     border: none;
     border-radius: 8px;
 }
-
-/* img {
-    border-radius: 8px;
-    float: left;
-    border: 2px;
-    border-style:solid;
-    border-color: #777777;
-} */
 
 .thumb {
     position: relative;
@@ -140,11 +146,17 @@ a:hover {
     font-weight: bold;
     color: #777777;
     background-color: #ffffff;
-    position: fixed;
+    position: absolute;
     right: 59px;
     padding: 21px 20px 20px 15px;
     margin: 30px 30px 30px 30px;
     border: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.with-me {
+    border-bottom: 2px;
     border-style: solid;
     border-color: #dddddd;
 }
