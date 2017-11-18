@@ -24,7 +24,7 @@ p {
     line-height: 165%;
     margin: 8px;
 }
-    
+
 p:first-child::selection {
     color: red;
     background: yellow;
@@ -186,6 +186,12 @@ a:hover {
     margin: 30px;
     padding: 21px 30px 20px 30px;
     border: 1px;
+    border-style: solid;
+    border-color: #dddddd;
+}
+
+.portfolio {
+    border-bottom: 2px;
     border-style: solid;
     border-color: #dddddd;
 }
